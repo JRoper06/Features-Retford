@@ -1,0 +1,174 @@
+.body {
+  font-family: roboto, Arial;
+}
+.yellow-header {
+  position: fixed;
+  top: 150px;
+  left: 0;
+  height: 63px;
+  width: 858px;
+  background-color: rgb(255, 247, 0);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+.first-heading-yellow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+.profile-icon {
+  width: 35px;
+  position: fixed;
+  left: 700px;
+  top: 47px;
+}
+.top-right-icons {
+  position: fixed;
+  width: 50px;
+  left: 805px;
+  top: 14px;
+}
+.header {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(255, 237, 3);
+  z-index: 100;
+  color: white;
+}
+.jd-logo {
+  height: 80px;
+  margin-left: 25px;
+  margin-top: 23px;
+  border-radius: 40px;
+  position: fixed;
+  z-index: 1;
+}
+.large-logo {
+  margin-left: 45px;
+  margin-right: 0px;
+  margin-top: 41px;
+  height: 40px;
+  width: 270px;
+}
+.sub-headings {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 690px;
+  margin-top: 105px;
+  padding-right: 110px;
+  padding-left: 110px;
+  font-size: 14px;
+}
+.gifting-sub {
+  margin-left: 3px;
+  width: 40px;
+  height: 40px;
+  color: orange;
+}
+.men-sub {
+  margin-left: 8px;
+  
+  width: 25px;
+  height: 40px;
+  color: black;
+}
+.women-sub {
+  margin-right: 70px;
+  margin-top: 5px;
+  color: black;
+}
+.kids-sub {
+ margin-left: -40px;
+ margin-top: 6px;
+ width: 30px;
+ color: black;
+}
+.accessories-sub {
+  margin-left: -60px;
+  margin-top: 5px;
+  width: 70px;
+  color: black;
+}
+.brands-sub {
+  margin-left: -30px;
+  margin-top: 6px;
+  width: 40px;
+  color: black;
+}
+.football-sub {
+  margin-left: -23px;
+  margin-top: 6px;
+  width: 46px;
+  color: black;
+}
+.sports-sub {
+  margin-left: -10px;
+  width: 35px;
+  color: black;
+}
+.offers-sub {
+  margin-left: -8px;
+  width: 35px;
+}
+.blog-sub {
+  margin-left: -10px;
+  width: 50px;
+  color: black;
+}
+.search-bar {
+    position: fixed;
+    height: 47px;
+    width: 350px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -174px;
+    margin-top: 30px;
+}
+.search-bar::placeholder {
+  font-size: 12px;
+}
+.middle-section {
+  margin-left: 500px;
+  margin-right: 35px;
+  max-width: 500px;
+  position: fixed;
+  align-items: center;
+}
+.search-icon {
+  height: 30px;
+  background-color: white;
+  position: fixed;
+  left: 650px;
+  top: 49px;
+}
+.find-store {
+  position: fixed;
+  left: 647px;
+  top: 3px;
+  font-size: 13px;
+}
+.deliver-to {
+  position: fixed;
+  left: 737px;
+  top: 3px;
+  font-size: 13px;
+}
